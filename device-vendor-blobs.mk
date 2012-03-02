@@ -94,4 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A1_07/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/lenovo/A1_07/proprietary/libcamera_client.so:/system/lib/libcamera_client.so \
     vendor/lenovo/A1_07/proprietary/libaudio.so:/system/lib/libaudio.so \
+    vendor/lenovo/A1_07/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
+    vendor/lenovo/A1_07/proprietary/libOpenVGU.so:/system/lib/libOpenVGU.so \
+    vendor/lenovo/A1_07/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
 
