@@ -71,8 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A1_07/proprietary/lib/hw/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
     vendor/lenovo/A1_07/proprietary/lib/hw/gps.omap3.so:/system/lib/hw/gps.omap3.so \
     vendor/lenovo/A1_07/proprietary/lib/hw/sensors.omap3.so:/system/lib/hw/sensors.omap3.so \
-    vendor/lenovo/A1_07/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
-    vendor/lenovo/A1_07/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \	
     vendor/lenovo/A1_07/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/lenovo/A1_07/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
     vendor/lenovo/A1_07/proprietary/lib/libpvr2d.so:/system/lib/libpvr2d.so \
@@ -83,36 +81,37 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A1_07/proprietary/lib/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
     vendor/lenovo/A1_07/proprietary/lib/libbltsville_cpu.so:/system/lib/libbltsville_cpu.so \
     vendor/lenovo/A1_07/proprietary/lib/libbltsville_ticpu.so:/system/lib/libbltsville_ticpu.so \
+    vendor/lenovo/A1_07/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/lenovo/A1_07/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/lenovo/A1_07/proprietary/lib/libOpenVGU.so:/system/lib/libOpenVGU.so \
     vendor/lenovo/A1_07/proprietary/lib/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
     vendor/lenovo/A1_07/proprietary/etc/firmware/fm_rx_ch8_1283.2.bts:/system/lib/etc/firmware/fm_rx_ch8_1283.2.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/fm_rx_init_1273.2.bts:/system/lib/etc/firmware/fm_rx_init_1273.2.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/fm_tx_ch8_1273.1.bts:/system/lib/etc/firmware/fm_tx_ch8_1273.1.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/fm_tx_ch8_1273.2.bts:/system/lib/etc/firmware/fm_tx_ch8_1273.2.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/fm_tx_ch8_1283.2.bts:/system/lib/etc/firmware/fm_tx_ch8_1283.2.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/fm_tx_init_1273.2.bts:/system/lib/etc/firmware/fm_tx_init_1273.2.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/fmc_ch8_1283.2.bts:/system/lib/etc/firmware/fmc_ch8_1283.2.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/TIInit_7.2.31.bts:/system/lib/etc/firmware/TIInit_7.2.31.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/TIInit_7.6.15.bts:/system/lib/etc/firmware/TIInit_7.6.15.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/TIInit_10.6.15.bts:/system/lib/etc/firmware/TIInit_10.6.15.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/TIInit_12.7.27.bts:/system/lib/etc/firmware/TIInit_12.7.27.bts \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-mr.bin.r4:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-mr.bin.r4 \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-mr.bin.r5:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-mr.bin.r5 \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-mr_plt.bin.r4:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-mr_plt.bin.r4 \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r4:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r4 \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r5:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r5 \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr_plt.bin.r4:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-mr_plt.bin.r4 \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr_plt.bin.r5:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-mr_plt.bin.r5 \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/lib/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:/system/lib/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/lib/etc/firmware/ti-connectivity/wl1271-nvs.bin \
-	vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin:/system/lib/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin
+    vendor/lenovo/A1_07/proprietary/etc/firmware/fm_rx_init_1273.2.bts:/system/lib/etc/firmware/fm_rx_init_1273.2.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/fm_tx_ch8_1273.1.bts:/system/lib/etc/firmware/fm_tx_ch8_1273.1.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/fm_tx_ch8_1273.2.bts:/system/lib/etc/firmware/fm_tx_ch8_1273.2.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/fm_tx_ch8_1283.2.bts:/system/lib/etc/firmware/fm_tx_ch8_1283.2.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/fm_tx_init_1273.2.bts:/system/lib/etc/firmware/fm_tx_init_1273.2.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/fmc_ch8_1283.2.bts:/system/lib/etc/firmware/fmc_ch8_1283.2.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/TIInit_7.2.31.bts:/system/lib/etc/firmware/TIInit_7.2.31.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/TIInit_7.6.15.bts:/system/lib/etc/firmware/TIInit_7.6.15.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/TIInit_10.6.15.bts:/system/lib/etc/firmware/TIInit_10.6.15.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/TIInit_12.7.27.bts:/system/lib/etc/firmware/TIInit_12.7.27.bts \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-mr.bin.r4:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-mr.bin.r4 \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-mr.bin.r5:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-mr.bin.r5 \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl127x-fw-mr_plt.bin.r4:/system/lib/etc/firmware/ti-connectivity/wl127x-fw-mr_plt.bin.r4 \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r4:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r4 \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r5:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r5 \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr_plt.bin.r4:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-mr_plt.bin.r4 \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr_plt.bin.r5:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-mr_plt.bin.r5 \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/lib/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:/system/lib/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:/system/lib/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/lib/etc/firmware/ti-connectivity/wl1271-nvs.bin \
+    vendor/lenovo/A1_07/proprietary/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin:/system/lib/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin
