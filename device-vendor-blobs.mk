@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A1_07/proprietary/lib/libpvr2d.so:/system/lib/libpvr2d.so \
     vendor/lenovo/A1_07/proprietary/lib/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
     vendor/lenovo/A1_07/proprietary/lib/libsrv_init.so:/system/lib/libsrv_init.so \
+    vendor/lenovo/A1_07/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
     vendor/lenovo/A1_07/proprietary/lib/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so \
     vendor/lenovo/A1_07/proprietary/lib/libwvm.so:/system/lib/libwvm.so \
     vendor/lenovo/A1_07/proprietary/lib/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
