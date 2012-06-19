@@ -36,21 +36,21 @@ PRODUCT_COPY_FILES += \
 
 # vendor main
 PRODUCT_COPY_FILES += \
-    vendor/lenovo/a107/proprietary/libbltsville_cpu.so:/system/lib/libbltsville_cpu.so \
-    vendor/lenovo/a107/proprietary/libbltsville_ticpu.so:/system/lib/libbltsville_ticpu.so \
-    vendor/lenovo/a107/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
-    vendor/lenovo/a107/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
-    vendor/lenovo/a107/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/lenovo/a107/proprietary/libOpenVGU.so:/system/lib/libOpenVGU.so \
-    vendor/lenovo/a107/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
-    vendor/lenovo/a107/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
-    vendor/lenovo/a107/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
-    vendor/lenovo/a107/proprietary/libsrv_init.so:/system/lib/libsrv_init.so \
-    vendor/lenovo/a107/proprietary/libsrv_um.so:/system/lib/libsrv_um.so \
-    vendor/lenovo/a107/proprietary/libusc.so:/system/lib/libusc.so \
-    vendor/lenovo/a107/proprietary/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
-    vendor/lenovo/a107/proprietary/libwvm.so:/system/lib/libwvm.so \
-    vendor/lenovo/a107/proprietary/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so
+    vendor/lenovo/a107/proprietary/libbltsville_cpu.so:/system/vendor/lib/libbltsville_cpu.so \
+    vendor/lenovo/a107/proprietary/libbltsville_ticpu.so:/system/vendor/lib/libbltsville_ticpu.so \
+    vendor/lenovo/a107/proprietary/libglslcompiler.so:/system/vendor/lib/libglslcompiler.so \
+    vendor/lenovo/a107/proprietary/libIMGegl.so:/system/vendor/lib/libIMGegl.so \
+    vendor/lenovo/a107/proprietary/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
+    vendor/lenovo/a107/proprietary/libOpenVGU.so:/system/vendor/lib/libOpenVGU.so \
+    vendor/lenovo/a107/proprietary/libpvr2d.so:/system/vendor/lib/libpvr2d.so \
+    vendor/lenovo/a107/proprietary/libpvrANDROID_WSEGL.so:/system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/lenovo/a107/proprietary/libPVRScopeServices.so:/system/vendor/lib/libPVRScopeServices.so \
+    vendor/lenovo/a107/proprietary/libsrv_init.so:/system/vendor/lib/libsrv_init.so \
+    vendor/lenovo/a107/proprietary/libsrv_um.so:/system/vendor/lib/libsrv_um.so \
+    vendor/lenovo/a107/proprietary/libusc.so:/system/vendor/lib/libusc.so \
+    vendor/lenovo/a107/proprietary/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
+    vendor/lenovo/a107/proprietary/libwvm.so:/system/vendor/lib/libwvm.so \
+    vendor/lenovo/a107/proprietary/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so
 
 # DSP
 PRODUCT_COPY_FILES += \
