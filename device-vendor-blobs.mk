@@ -14,10 +14,10 @@
 
 
 PRODUCT_COPY_FILES := \
-    vendor/lenovo/a107/proprietary/vendor/hwcomposer.omap3.so:/system/vendor/lib/hw/hwcomposer.omap3.so \
-    vendor/lenovo/a107/proprietary/vendor/hwcomposer.omap3.so:/system/lib/hw/hwcomposer.omap3.so \
-    vendor/lenovo/a107/proprietary/vendor/gralloc.omap3.so:/system/vendor/lib/hw/gralloc.omap3.so \
-    vendor/lenovo/a107/proprietary/vendor/libstagefrighthw.so:/system/vendor/lib/hw/libstagefrighthw.so \
+    vendor/lenovo/a107/proprietary/hwcomposer.omap3.so:/system/vendor/lib/hw/hwcomposer.omap3.so \
+    vendor/lenovo/a107/proprietary/hwcomposer.omap3.so:/system/lib/hw/hwcomposer.omap3.so \
+    vendor/lenovo/a107/proprietary/gralloc.omap3.so:/system/vendor/lib/hw/gralloc.omap3.so \
+    vendor/lenovo/a107/proprietary/libstagefrighthw.so:/system/vendor/lib/hw/libstagefrighthw.so \
     vendor/lenovo/a107/proprietary/pvrsrvinit:/system/bin/pvrsrvinit
 
 PRODUCT_COPY_FILES += \
